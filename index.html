@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aashish Basnet | Digital Marketing Expert</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* CSS Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      background-image: url('download.jpg'); /* Add background image */
+      background-size: cover; /* Make sure the image covers the entire page */
+      background-position: center; /* Center the background image */
+      background-attachment: fixed; /* Make the background image stay fixed */
+    }
+
+    header {
+      background-color: rgba(51, 51, 51, 0.8); /* Slight transparency for header */
+      color: white;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav-links li {
+      margin-left: 2rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      height: 90vh;
+      background-color: rgba(244, 244, 244, 0.8); /* Background color with opacity */
+      position: relative;
+      padding: 0 20px;
+    }
+
+    .hero-text {
+      flex: 1; /* Take up remaining space */
+      max-width: 70%; /* Restrict the width of the text section to 70% */
+    }
+
+    .hero-text h2 {
+      font-size: 3rem;
+      color: #333;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+    .hero-section img {
+      width: 30%; /* Set image to take 30% of the hero section */
+      border-radius: 50%;
+      border: 5px solid white;
+    }
+
+    .about-section, .services-section, .portfolio-section, .contact-section {
+      padding: 4rem 0;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: #fff; /* White color for headings */
+    }
+
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      color: white; /* Text color white */
+    }
+
+    .about-text {
+      flex: 1;
+      max-width: 600px;
+      text-align: left; /* Align text to the left */
+    }
+
+    .about-text p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    .about-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 5px solid white;
+    }
+
+    .about-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .services-list {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .service {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 2rem auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #333;
+      color: white;
+      padding: 1rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Aashish Basnet</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home" class="hero-section">
+    <div class="hero-text">
+      <h2>Welcome to My personal website</h2>
+       <p>"Hi, I'm Aashish Basnet - Helping you Thrive in the Digital World!"</p>
+        <p>"Grow your Brand online - Your success is our Goal!"</p>
+
+      <a href="#contact" class="cta-button">contact Me</a>
+    </div>
+    <img src="aashish.jpg" alt="Welcome Photo"> <!-- Replace with your welcome image URL -->
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>With years of experience in digital marketing, I help businesses grow online by leveraging data-driven strategies and impactful marketing campaigns.</p>
+    </div>
+    <div class="about-image">
+      <img src="about.jpg" alt="Aashish Basnet"> <!-- Replace with your photo -->
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <h2>Services</h2>
+    <div class="services-list">
+      <div class="service">
+        <h3>SEO Optimization</h3>
+        <p>Rank your website higher on search engines and increase organic traffic.</p>
+      </div>
+      <div class="service">
+        <h3>Social Media Marketing</h3>
+        <p>Grow your brand's presence on popular social media platforms.</p>
+      </div>
+      <div class="service">
+        <h3>Content Marketing</h3>
+        <p>Create compelling content to engage your audience and build brand loyalty.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio-section">
+    <h2>Portfolio</h2>
+    <p>Coming soon...</p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form action="#">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aashish Basnet. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
